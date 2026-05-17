@@ -28,6 +28,8 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 public class BasicApplicationTests extends AbstractIntegrationTest {
+    
+    private String test;
 
     private MockMvc mockMvc;
     
