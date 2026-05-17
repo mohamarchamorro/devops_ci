@@ -91,6 +91,7 @@ public class BasicApplicationTests extends AbstractIntegrationTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$.invoiceId", is(1)));
     }
 
+    /*Crear test*/
     @Test
     public void createInvoiceTest() throws Exception {
         // Arrange
